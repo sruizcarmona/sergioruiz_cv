@@ -152,7 +152,7 @@ CV %<>% print_section('education')
 ```
 
 
-Selected Positions {data-icon=university}
+Work History {data-icon=university}
 --------------------------------------------------------------------------------
 
 ```{r}
