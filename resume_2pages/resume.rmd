@@ -238,4 +238,11 @@ CV %<>% print_text_block('resume_aside_2')
 ```
 
 
+<i class="fa fa-capsules center"></i>
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_text_block('resume_aside_3')
+```
+
 
