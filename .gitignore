@@ -1,3 +1,7 @@
 .jekyll-cache
 .DS_Store
 .Rhistory
+
+.env
+venv
+
