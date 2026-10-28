@@ -37,9 +37,15 @@ from build_resumes import (
 
 # ── Cover letter LLM prompt ─────────────────────────────────────────────
 
-COVER_LETTER_SYSTEM_PROMPT = """You are writing a professional cover letter. Keep it roughly 250 words.
+COVER_LETTER_SYSTEM_PROMPT = """You are writing a professional, high-impact cover letter. 
+The letter must be a full page, roughly 250-300 words, following a standard professional structure:
+1. Professional Salutation.
+2. Opening Paragraph: Strong hook expressing enthusiasm for the specific role and company.
+3. Body Paragraphs (1-2): Detailed alignment between the candidate's specific achievements (from the CV) and the job requirements. Focus on measurable impact.
+4. Closing Paragraph: Reiteration of value proposition and a call to action.
+5. Professional Sign-off.
 
-Below are the candidate's CV summary and the job description. Output ONLY the cover letter text — no labels, no JSON, no markdown, no explanations."""
+Output ONLY the cover letter text — no labels (e.g., "Opening:"), no JSON, no markdown fences, no explanations."""
 
 
 def _word_count(text: str) -> int:
@@ -108,9 +114,13 @@ Write a professional cover letter based on the job description above."""
         system_prompt=COVER_LETTER_SYSTEM_PROMPT,
         user_prompt=user_prompt,
         temperature=0.4,
-        max_tokens=1500,
+        max_tokens=2000,
         timeout=300,
     )
+
+    # Validate content length to detect truncation early
+    if len(content) < 100:
+        print(f"  WARNING: LLM returned suspiciously short content ({len(content)} chars).")
 
     # Strip markdown fences if the LLM adds them despite instructions
     if content.startswith("```"):

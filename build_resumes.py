@@ -42,8 +42,8 @@ def get_sheet_id() -> str:
 
 # ── LLM Providers ──────────────────────────────────────────────────────
 
-OLLAMA_BASE_URL = "http://localhost:11434/v1"
-OLLAMA_MODEL = "gemma4:31b-cloud"
+OLLAMA_BASE_URL = "https://ollama.com/api/chat"
+OLLAMA_MODEL = "gemma4:31b"
 
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 GROQ_MODEL = "llama-3.3-70b-versatile"
@@ -52,10 +52,10 @@ GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 GEMINI_MODEL = "gemini-2.5-flash"
 
 # Active LLM — change these to swap providers
-LLM_BASE_URL = GEMINI_BASE_URL
-LLM_MODEL = GEMINI_MODEL
-LLM_API_KEY_VAR = "GEMINI_API_KEY"
-LLM_PROVIDER = "gemini"
+LLM_BASE_URL = OLLAMA_BASE_URL
+LLM_MODEL = OLLAMA_MODEL
+LLM_API_KEY_VAR = ""
+LLM_PROVIDER = "ollama"
 
 # Fallback (used by _call_chat_with_fallback if the active provider fails)
 OLLAMA_FALLBACK_URL = OLLAMA_BASE_URL
@@ -410,71 +410,44 @@ def _call_chat_with_fallback(
     max_tokens: int,
     timeout: int = 300,
 ) -> tuple:
-    """Call the active LLM provider; on any error, fall back to Ollama.
+    """Call the Ollama Cloud API directly via HTTP."""
+    import httpx
+    import os
 
-    Returns (content_string, provider_name).
-    """
-    from openai import OpenAI
-    import time
-
+    api_key = os.environ.get("OLLAMA_API_KEY", "")
+    headers = {"Authorization": f"Bearer {api_key}"} if api_key else {}
+    
     prompt_chars = len(system_prompt) + len(user_prompt)
     print(f"  Calling LLM ({LLM_PROVIDER}/{LLM_MODEL}, prompt~{prompt_chars//1000}k chars, max_tokens={max_tokens})...")
 
-    def _try_provider(base_url, model, api_key, provider_name, no_proxy):
-        http_client = make_ssl_http_client(no_proxy=no_proxy)
-        client = OpenAI(base_url=base_url, api_key=api_key, http_client=http_client)
-
-        stop, hb = _start_heartbeat(provider_name, prompt_chars)
-        try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=[
+    def _run_request():
+        # Use the existing helper to handle SSL and Proxy settings
+        with make_ssl_http_client() as client:
+            payload = {
+                "model": LLM_MODEL,
+                "messages": [
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
                 ],
-                temperature=temperature,
-                max_tokens=max_tokens,
-                timeout=timeout,
-            )
-            return resp
-        finally:
-            stop.set()
-            hb.join(timeout=1)
+                "options": {
+                    "temperature": temperature,
+                    "num_predict": max_tokens,
+                },
+                "stream": False,
+            }
+            resp = client.post(LLM_BASE_URL, json=payload, headers=headers, timeout=timeout)
+            resp.raise_for_status()
+            return resp.json()
 
-    # ── Attempt 1: active provider (Gemini) ──
-    primary_key = os.environ.get(LLM_API_KEY_VAR) if LLM_API_KEY_VAR else ""
-    primary_no_proxy = "localhost" in LLM_BASE_URL
-    primary_err = None
-    if not LLM_API_KEY_VAR or os.environ.get(LLM_API_KEY_VAR):
-        try:
-            resp = _try_provider(LLM_BASE_URL, LLM_MODEL, primary_key or "ollama",
-                                 LLM_PROVIDER, primary_no_proxy)
-            content = resp.choices[0].message.content.strip()
-            print(f"  OK from {LLM_PROVIDER}")
-            return content, LLM_PROVIDER
-        except Exception as e:
-            primary_err = e
-            print(f"  {LLM_PROVIDER} failed: {e}")
-    else:
-        primary_err = RuntimeError(f"{LLM_API_KEY_VAR} not set")
-        print(f"  {LLM_PROVIDER} skipped: {primary_err}")
-
-    # ── Attempt 2: Ollama fallback ──
-    fallback_key = (os.environ.get(OLLAMA_FALLBACK_API_KEY_VAR)
-                    if OLLAMA_FALLBACK_API_KEY_VAR else "ollama")
-    fallback_no_proxy = "localhost" in OLLAMA_FALLBACK_URL
-    print(f"  Falling back to {OLLAMA_FALLBACK_PROVIDER}/{OLLAMA_FALLBACK_MODEL}...")
     try:
-        resp = _try_provider(OLLAMA_FALLBACK_URL, OLLAMA_FALLBACK_MODEL,
-                             fallback_key, OLLAMA_FALLBACK_PROVIDER, fallback_no_proxy)
-        content = resp.choices[0].message.content.strip()
-        print(f"  OK from {OLLAMA_FALLBACK_PROVIDER} (fallback)")
-        return content, OLLAMA_FALLBACK_PROVIDER
-    except Exception as fallback_err:
-        print(f"  {OLLAMA_FALLBACK_PROVIDER} fallback also failed: {fallback_err}")
-        if primary_err:
-            raise primary_err from fallback_err
-        raise
+        result = _run_request()
+        content = result["message"]["content"].strip()
+        print(f"  OK from {LLM_PROVIDER}")
+        return content, LLM_PROVIDER
+    except Exception as e:
+        print(f"  {LLM_PROVIDER} failed: {e}")
+        raise e
+
 
 
 def call_llm(career_json: dict, job_data: dict) -> str:

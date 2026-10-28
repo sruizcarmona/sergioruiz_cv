@@ -1,0 +1,59 @@
+Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.
+ 
+ At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company  we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, society, and investors.
+  
+  As a Work Anywhere company, we support your flexibility to work from home or in the office, so you can thrive in your ideal environment.
+   
+   Join us in transforming the life sciences industry, committed to making a positive impact on its customers, employees, and communities.
+
+   The Role
+   Veeva Links vision is to become the global leader for deep data in life sciences. We are looking for a detail-oriented and experienced Data Analyst to join our product team.
+    
+    In this role, you will play a key part in developing and implementing a data governance framework, ensuring data accuracy, completeness, and integrity. Your main responsibilities include establishing data quality monitoring processes, identifying root causes of inconsistencies, and collaborating with cross-functional teams to resolve data gaps.
+     
+     To thrive in this role, you need expertise in SQL and Python for data manipulation and automation. You should be comfortable working with large datasets, designing dashboards with actionable recommendations, and applying statistical techniques to assess and enhance data quality.
+      
+      The ideal candidate has experience in creating documentation (process documentation, data collection guidelines) and in contributing to data governance policies and best practices.
+      What You'll Do
+      Implement a data governance framework 
+      Establish and maintain robust processes for tracking and assessing data quality
+      Develop automated checks to proactively detect data inconsistencies
+      Apply statistical techniques to enhance data quality
+      Create customized reports and dashboards
+      Extract data from databases (e.g., Redshift, MongoDB)
+      Identify and resolve root causes of quality issues
+      Collaborate in cross-functional teams of product managers, engineering, and operations
+      Create and maintain documentation 
+      Requirements
+      5+ years of work experience in data analysis or data quality role
+      Strong technical skills in data analysis, with proficiency in SQL and Python
+      Experience in data storage and processing on cloud platforms such as AWS, GCP, or Azure
+      Strong problem-solving skills and experience working with cross-functional teams
+      Experience writing process documentation and data collection guidelines
+      Nice to Have
+      University degree in medicine or life sciences
+      Understanding of healthcare, life sciences, or pharmaceutical industry data
+      Experience with data visualization tools to create dashboards and reports
+      Understanding of data engineering concepts (ETL, data pipelines)
+      Experience with workflow automation tools such as Apache Airflow
+      Experience working in an Agile or product-driven environment
+      Familiarity with data privacy and compliance regulations (e.g., GDPR, HIPAA)
+      Interviewing with Veeva
+      We value your time and believe in a transparent hiring process. Here is the process you can expect.
+
+      Follow the application process and submit your resume.
+      Within 3 days, you will receive a link to a personality assessment administered by a third party.
+      Once you complete the assessment, our team will review your full application package and follow up via email with our decision.
+      If moving to the interview stage, the process is as follows:
+      A conversation with the hiring manager
+      A practical case exercise
+      A final conversation with our group's Senior Leader.
+      Once all interviews are complete, the manager will be in touch with a final decision.
+      Perks & Benefits
+      1% charitable giving program
+      Life insurance
+      Pension contribution
+      Fitness reimbursement
+      Compensation
+      Total compensation: 50,000 - 70,000 EUR
+      The total compensation range listed here has been provided to comply with local regulations and represents a potential total compensation range for this role. Please note that actual total compensation may vary within the range above or below, depending on experience and location. We look at compensation for each individual and base our offer on your unique qualifications, experience, and expected contributions. This position's total compensation may be composed of other types of compensation, such as variable bonus and/or stock bonus.

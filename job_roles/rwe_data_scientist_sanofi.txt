@@ -1,0 +1,52 @@
+RWE Data Scientist
+
+Location: Barcelona, Spain
+
+About the job
+Our Team
+
+Our Hubs are a crucial part of how we innovate, improving performance across every Sanofi department and providing a springboard for the amazing work we do. Build a career and you can be part of transforming our business while helping to change millions of lives. Ready?
+
+As RWE Data Scientist youll provide a high level of expertise in employing cutting-edge analytical & computational approaches to drive evidence-based pharmaceutical product development; provide scientific and technical leadership in machine learning and AI; work closely with other disciplines across Sanofi including Business Units, Digital, R&D, Biostatistics, Information Technology Systems and other Data Science partners to deliver cutting edge analysis to key business questions.
+
+Examples of Advanced Analytics activities:
+
+Machine/Deep Learning to elucidate disease trajectories, patient subtypes, define underdiagnosed conditions, and unmet health needs
+
+Create a framework for generating re-usable models and insights across big-data (e.g. EHRs, claims) and rich small data sets (e.g. clinical trials, imaging)
+
+Generating insights by merging diverse data streams e.g. health, surveillance, trend data, sensor, imaging;
+
+Adoption of emerging technology into an analytical framework:  distributed analytics, graph databases
+
+People:
+
+Act as a subject matter expert in machine learning, statistical and/or modelling working on team projects
+
+Work with internal and external study lead to execute Advance Analytics projects and studies
+
+Performance:
+
+Implement and execute computational and statistical methodologies in Advanced Analytics for RWE
+
+Provide expertise and execute advanced analytics for solving problems across R&D, Medical Affairs, HEVA and Market Access Strategies and Plans
+
+Process:
+
+Apply a broad array of capabilities spanning machine learning, statistics, mathematics, modelling, simulation, text-mining/NLP, data-mining to extract insights and be able to communicate and champion these efforts across the company
+
+Plan and deploy methodological standards, standardized processes, demos, and POCs for the companys highest priority business needs
+
+Contribute to the design, development, and implementation of Sanofis data science architecture and ecosystem to guide decision-making and building foundational capabilities
+
+About you
+
+Education: PhD in quantitative field such as Statistics, Biostatistics, Applied Mathematicsor related field with 6 years of industry or academic experience; Relevant Masters Degree, with 10 years of related industry or academic experience.
+
+Soft skills: Strong oral and written communication skills; ability to work and collaborate in a team environment
+
+Languages: Excellent knowledge of English language (spoken and written)
+
+#LI-Hybrid #BarcelonaHub #SanofiHubs
+
+Pursue Progress. Discover Extraordinary.

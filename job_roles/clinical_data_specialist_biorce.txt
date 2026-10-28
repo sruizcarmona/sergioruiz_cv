@@ -1,0 +1,38 @@
+About the job
+About The Company
+
+Biorce is a pioneering Healthtech company dedicated to revolutionizing drug development through the power of AI. We are passionate about accelerating medical advancements and improving patient outcomes.
+
+Our team comprises seasoned clinical research professionals, data scientists, and AI experts, working collaboratively to bridge the gap between cutting-edge technology and real-world clinical needs.
+
+With an unwavering commitment to revolutionize healthcare, we envision a world where all patients benefit from accelerated and cost-effective access to treatments. Biorce is poised to redefine the landscape of healthcare, shaping a future where innovation and accessibility converge for the betterment of humanity.
+
+About The Role
+
+We are looking for a Clinical Data Specialist who specializes in clinical dataset annotation. In this role, you won't just be managing data; you will be teaching our AI how to "read" and "understand" clinical research. You will transform unstructured clinical notes, protocols, and medical records into high-quality, structured training sets that power our Aika platform.
+
+Key Responsibilities
+
+Dataset Annotation: Lead the high-fidelity labeling and annotation of diverse clinical datasets, including trial protocols, Case Report Forms (CRFs), and medical literature.
+AI Training Support: Work closely with the AI and Engineering teams to provide the "human-in-the-loop" expertise required to refine machine learning models.
+Standardization: Apply clinical coding standards (such as MedDRA, WHODrug, or SNOMED CT) to ensure data interoperability and regulatory compliance.
+Quality Control: Conduct rigorous audits of annotated data to maintain the "ground truth" accuracy essential for regulatory-grade AI outputs.
+Protocol Intelligence: Extract key entities (inclusion/exclusion criteria, endpoints, and biomarkers) from unstructured documents to enhance the platforms predictive capabilities.
+
+Requirements
+
+Education: Bachelors degree in Life Sciences, Nursing, Pharmacy, or Health Informatics.
+Experience: 2+ years in clinical data management (CDM) or clinical research, with a specific focus on data cleaning or medical coding.
+Annotation Expertise: Proven experience with data labeling tools or a strong understanding of NLP (Natural Language Processing) concepts in a medical context.
+Clinical Knowledge: Deep familiarity with clinical trial phases, protocol design, and regulatory requirements (FDA/EMA).
+Precision: An obsessive eye for detail - you understand that a single mislabeled data point can impact the validity of a clinical model.
+
+Why Join Us?
+
+A dynamic work environment with an international team, where collaboration and diversity thrive.
+Work alongside top talent, united by a shared purpose and committed to making a real impact.
+Comprehensive private health coverage to ensure your physical and mental well-being.
+Hybrid work model offering flexibility to balance your professional and personal life.
+Company events to celebrate achievements and enjoy time together.
+Get equipped with a MacBook to enhance your productivity and work experience.
+Our office is pet-friendly! Youll likely be greeted by a few wagging tails upon arrival.

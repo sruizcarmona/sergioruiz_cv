@@ -1,0 +1,117 @@
+Skip to ContentSkip to navigation
+Logo
+Búda de empleo
+Para profesionales
+Para empresas
+Especializaciones
+Insights
+Acerca de nosotros
+Contáanos
+Volver a la búda
+Data Eng
+Solicita este empleo
+Sobre este proyecto
+Datos clave
+Tílo de empleo
+Data Eng
+
+Tipo de rol
+Autóo
+
+Fecha de inicio
+ASAP
+
+Apto para trabajo remoto
+SíLocalizacióarcelona, CataluñEspañSalario
+Negotiable 
+
+At Huxley, we are looking for a Data Engineer / Analytics Engineer to join one of our clients in Barcelona.
+
+Project Overview
+You will design and build end-to-end data solutions in a greenfield environment, enabling real-time and batch processing. You will transform data into actionable insights through dashboards and data products, acting as a bridge between technical and business teams.
+
+Main responsibilities
+Design, build and maintain end-to-end data pipelines and data products.
+Develop ingestion and transformation workflows using Python, Spark and SQL.
+Build and evolve data models oriented to analytics and business consumption.
+Design and implement dashboards and reporting solutions, ensuring usability and business value.
+Work with event-driven / near real-time architectures (Solace-based ingestion).
+Integrate data from APIs, streaming devices and cloud systems.
+Collaborate closely with business stakeholders to translate requirements into data visualisations and reporting applications.
+Ensure data quality, observability, governance and reliability across the full data lifecycle.
+Contribute to architecture decisions in a greenfield environment.
+Work with platform and cloud teams on infrastructure considerations (Azure).
+Promote best practices in data engineering, visualisation and delivery.
+Requirements (Must-have)
+* Strong experience as Analytics Engineer / Data Engineer, with focus on end-to-end data delivery.
+* Strong experience in cloud data environments, ideally Microsoft Azure.
+* Hands-on experience with Databricks, Spark / PySpark and SQL.
+* Strong experience building data pipelines in greenfield or highly evolving environments.
+* Experience with event-driven / streaming architectures (near real-time data processing, Solace or similar).
+* Experience working with cloud databases and data lakes such as Snowflake, BigQuery, Redshift, Synapse or Databricks Lakehouse.
+* Strong ability to transform data into business-oriented analytics products (dashboards, reporting layers, semantic models).
+* Experience working with data visualisation tools such as Power BI, Tableau, Looker or similar.
+* Strong SQL proficiency (modelling, transformations, performance).
+* Ability to work across the full stack: ingestion  transformation  modelling  visualisation.
+* Fluent in English and Spanish.
+
+Nice to have
+* Experience building dashboards or data applications end-to-end
+* UX/UI awareness for data visualisation
+* Experience with streaming tools (Kafka, Azure Event Hub, NATS)
+* Experience in healthcare / regulated environments
+
+Conditions
+* Start date: ASAP
+* Location: Barcelona (Hybrid)
+* Full-time
+
+Let op: vacaturefraude
+
+Helaas komt vacaturefraude steeds vaker voor. We waarschuwen je voor mogelijke misleiding:
+* Wij zullen nooit via WhatsApp of in een videogesprek vragen om jouw persoonlijke gegevens (zoals een kopie van je ID, bankgegevens of BSN).
+* Twijfel je over de echtheid van een vacature of contactpersoon? Neem dan altijd rechtstreeks contact met ons op via de officië contactgegevens op onze website.
+
+Important: job fraud
+
+Unfortunately, job fraud is becoming more common. Beware of such scams:
+* We will never ask for personal information (such as a copy of your ID, bank details, or social security number) via WhatsApp or during a video call.
+* If you're unsure whether a vacancy or contact person is legitimate, please reach out to us directly using the official contact details on our website.
+
+
+Solicita este empleo
+Empleos relacionados
+Ver todos los proyectos
+AI Expert
+AI Expert (Claude Expert) For one of our key clients, we are looking for an AI Expert to joi...
+
+Localizacióarcelona, CataluñEspañalario
+Negotiable
+Tipo de rol
+Autóo
+Apto para trabajo remoto
+Trabajo remoto disponible
+Logo
+Para profesionales
+Todos los proyectos
+Para empresas
+Nuestros servicios
+Acerca de Huxley
+Especializaciones
+Conoce al equipo
+Valores ESG
+Úete al equipo de Huxley
+Knowledge hub
+Todos los artílos
+Contáanos
+Ubicaciones de oficina
+Polícas de privacidad y cookies
+Formulario de Solicitud de Derechos de Privacidad
+Declaracióobre la esclavitud moderna
+Datos fiscales
+Speak Up
+Sitemap
+Todos los proyectos
+© Huxley 2026
+LinkedIn
+Manage Cookie Preferences

@@ -1,0 +1,62 @@
+RWE Data Scientist   
+                                                                                                              
+
+													      Location: Barcelona, Spain
+
+													      About the job
+													      Our Team
+
+													      Our Team
+
+													      Sanofi Business Operations is an internal Sanofi resource organization based in India, Spain, Hungary, China, Malaysia & Colombia and is setup to centralize processes and activities to support Specialty Care, Vaccines, General Medicines, CHC, CMO, and R&D, Data & Digital functions. Sanofi Business Operations strives to be a strategic and functional partner for tactical deliveries to Medical, HEVA, and Commercial organizations in Sanofi, Globally.
+
+													      As RWE Data Scientist youll provide a high level of expertise in employing cutting-edge analytical & computational approaches to drive evidence-based pharmaceutical product development; provide scientific and technical leadership in machine learning and AI; work closely with other disciplines across Sanofi including Business Units, Digital, R&D, Biostatistics, Information Technology Systems and other Data Science partners to deliver cutting edge analysis to key business questions.
+
+													      Examples of Advanced Analytics activities: 
+
+													      Machine/Deep Learning to elucidate disease trajectories, patient subtypes, define underdiagnosed conditions, and unmet health needs;
+													      Create a framework for generating re-usable models and insights across big-data (e.g. EHRs, claims) and rich small data sets (e.g. clinical trials, imaging);
+													      Generating insights by merging diverse data streams e.g. health, surveillance, trend data, sensor, imaging;
+													      Adoption of emerging technology into an analytical framework:  distributed analytics, graph databases
+													      People:
+
+													      Work together with RWE team to support projects across the franchises motivated by business needs;
+													      Work closely with the Medical, Market Access, HEOR, and Commercial team to maximize the value of our portfolio of priority assets worldwide;
+													      Work collaboratively within Medical and across functions, with clients and external collaborators;
+													      Act as a subject matter expert in data science, statistical analysis and/or modelling working on team projects;
+													      Work with internal and external study lead to execute Advance Analytics projects and studies
+													      Mentor analysts on advanced analytics and RWE techniques; conduct technical workshops and training sessions
+													      Process:
+
+													      Work together and lead research analytical projects, including project conceptualization and design;
+													      Lead analysis of healthcare data, including clinical trial datasets, transactional claims, and electronic health records, using established and novel statistical and analytical techniques;
+													      Generate rapid response analyses for cross-functional stakeholders;
+													      Lead or contribute to drafting and reviewing technical and study reports, manuscripts for publishing in high-impact peer-reviewed journals, and abstracts and presentations for international conferences;
+													      Actively manage project activity and timelines;
+													      Internally advise your colleagues in the Health Economics, Commercial, and Medical franchises on your areas of technical and research expertise as directed by your supervisor;
+													      Communicate complex concepts and interpretation of analysis and findings to different audiences, including health economists, clinicians, policy makers, and health systems;
+													      Represent the team at external meetings;
+													      Validate and secure access to third-party healthcare data-sets
+													      Performance:
+
+													      Program, QC, and execute end-to-end RWE studies using diverse real-world data sources (claims, EHR, registries) and standardized formats (OMOP CDM); implement and execute computational and statistical methodologies in Advanced Analytics for RWE;
+													      Provide expertise and execute advanced analytics for solving problems across R&D, Medical Affairs, HEVA and Market Access Strategies and Plans
+													      About you
+
+													      Experience: 8+ years experience; High level proficiency in at least two or more technical or analytical languages (R, Python, SQL); experience with advanced ML techniques (neural networks/deep learning, reinforcement learning, SVM, PCA, etc.) and causal inference methodologies (propensity score methods, inverse probability weighting, doubly robust estimation); confounding adjustment techniques; comparative effectiveness research design; survival analysis (Kaplan-Meier, Cox models, competing risks); longitudinal data analysis methods; Strong healthcare data analysis expertise, expertise in data analysis techniques, and good understanding of healthcare datasets (EHR, Claims, RCTs), and data structures; Expertise in use of statistical methods to investigate real-world problems (e.g., patient journey, time to event analysis); Advanced experience in preparing, analysing, and managing large healthcare datasets in interventional and/or non-interventional studies; Ability to prototype analyses and algorithms in high-level languages embracing reproducible and collaborative technology platforms (e.g. GitHub, containers, jupyter notebooks); Exposure to NLP/LLM technologies and analyses; Knowledge of some data visualization technologies (ggplot2, R shiny, plotly, d3, Power BI);
+													      Real-World Data (RWD): Experience with Real-World Data (RWD), demonstrated proficiency in working with diverse real-world data sources, including but not limited to: MarketScan, Optum, TriNetX, IQVIA and STATinMED.
+													      Education: PhD in quantitative field such as Statistics, Biostatistics, Applied Mathematics or related field with 6 years of industry or academic experience; Relevant Masters Degree, with 10 years of related industry or academic experience.
+													      Soft skills: Integrity; Analytic excellence; Excellent written and oral communication skills; ability to communicate complex topics and data results in a concise and precise manner; High level of self-awareness; Ability to cooperate cross-functionally; Problem-solving and creative thinking skills; Enjoys working independently, flexibly and as part of a team on multiple projects; Enthusiastic and professional approach to working with colleagues, clients, and external collaborators.
+													      Languages: Excellent knowledge of English language (spoken and written)
+													      #LI-Hybrid #BarcelonaHub #SanofiHubs
+
+													      Pursue progress, discover extraordinary
+													      Better is out there. Better medications, better outcomes, better science. But progress doesnt happen without people  people from different backgrounds, in different locations, doing different roles, all united by one thing: a desire to make miracles happen. So, lets be those people.
+
+													      At Sanofi, we provide equal opportunities to all regardless of race, colour, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, ability or gender identity.
+
+													      Watch our ALL IN video and check out our Diversity Equity and Inclusion actions at sanofi.com!
+
+													      The salary range for this position is :70.800,00 - 94.400
+													      Final compensation will be determined based on demonstrated experience, skills, location, and other relevant factors. Employees may be eligible to participate in Company employee benefit programs.
+

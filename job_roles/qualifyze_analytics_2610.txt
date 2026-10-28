@@ -1,0 +1,55 @@
+About Qualifyze,
+Founded in 2019, Qualifyze is a leading company in supply chain compliance management in the Life Sciences industry, trusted by over 1,500 pharmaceutical and healthcare companies globally. Our digital suite of solutions connects manufacturers, suppliers, and a global network of more than 250 auditors and quality experts.
+
+With a track record of over 4,500 audits across 85+ countries and the largest and most accurate supplier network and data analytics tools, Qualifyze stands as the all-in-one partner for quality compliance and supply chain risk mitigation in the Life Sciences sector.
+
+
+Role Overview:
+As Team Lead Analytics, you will guide the analytics domain within our Business Intelligence team while remaining hands-on with data models and our semantic layer. Your mission is to build and maintain the path from raw data to trusted, self-service insights through robust dbt models, a rich semantic model, a well-structured Looker ecosystem, reliable investor metrics, and enriched CRM data for commercial teams.
+
+This is a player-coach role split equally between team leadership (prioritization, coaching, stakeholder alignment) and direct technical contributions (dbt, semantic modeling, and Looker).
+
+
+Main responsibilities:
+The team member shall perform the present tasks inherent to such position, including, but not limited to, the following:
+
+Team Leadership & Delivery: Lead the Analytics vertical (analytics engineering, business analysis, CRM data) by setting priorities, coaching team members, fostering clear ownership, and ensuring high-quality delivery. You will be responsible for fostering engagement, performance, and growth.
+Data Modeling & Semantic Layer: Own the data modeling layer end-to-end by designing, building, and reviewing dbt models across a medallion architecture, while enriching the semantic model to keep Looker (LookML, explores, views) consistent, reliable, and optimized for self-service reporting.
+Data Governance & CRM Operations: Govern investor reporting metrics, defining, reconciling, and ensuring every number reported to leadership and investors is accurate, traceable, and reproducible, while steering CRM data enrichment to ensure cleaned customer and supplier records sync reliably with the data warehouse for commercial teams.
+Cross-Functional Collaboration & Stakeholder Alignment: Act as the bridge to the business partnering with business analysts to gather and prioritize stakeholder requirements, balance Looker self-service tools against ad hoc analysis, and translate business needs into data models, explores, and reports, while partnering with Data Engineering on ingestion, pipeline reliability, warehouse architecture, and formal data contracts.
+Engineering Standards & Continuous Improvement: Uphold technical excellence by establishing code/design reviews, dbt tests, CI/CD, data quality monitoring, and operational runbooks, while acting as a catalyst to simplify, consolidate, or retire legacy models and introduce efficient tooling.
+Main requirements:
+Several years of experience as an Analytics Engineer, with strong foundations in data modelling, SQL, and the modern data stack.
+Proven experience building and maintaining dbt models and transformation pipelines, including testing, documentation, CI, and Git-based workflows; ideally within a medallion architecture. Strong understanding of dimensional modelling, semantic layers, and metric governance is required.
+Experience defining and governing business metrics and reporting, with a strong focus on accuracy, reconciliation, and traceability; investor or board reporting experience is a plus.
+Familiarity with CRM systems such as HubSpot or Salesforce, and with how CRM data is modelled, enriched, and synced with a data warehouse
+Strong business acumen and stakeholder management skills, with the ability to translate business questions into clear technical requirements, explain trade-offs to non-technical audiences, and collaborate across technical and business teams.
+Demonstrated readiness for a player-coach role, ideally with experience leading a small data team, setting priorities, mentoring colleagues, and remaining hands-on through technical and design decisions, code reviews, and continuous improvement.
+Nice to have: Experience with Looker (LookML, explores, and semantic-layer maintenance) or a comparable self-service BI tool, and working knowledge of Python for analytics workflows
+
+Soft skills - Level M4:
+Strategic Thinking: Translates the roadmap agreed with the Head of the team into concrete priorities and deliverables for ICs.
+Leadership & Mentorship: Coaches and develops team members; fostering ownership within the team.
+Decision-Making: Owns day-to-day technical decisions in data modelling and the semantic layer, aligning on roadmap and strategic decisions with the Head of the team.
+Stakeholder Management: Manages priorities and expectations with business stakeholders and leadership.
+Innovation: Challenges existing approaches and introduces better practices and tooling, balancing speed, scalability, and rigour.
+Salary
+
+At Qualifyze, our salary ranges are transparent internally, and we aim to follow a similar approach externally. For this role, were happy to share a reference point within the band: the expected salary range is around 65,000  70.000 , centered around the median.
+
+Final compensation will depend on experience and performance during the process, with some flexibility within the range.
+
+What do we offer?
+Competitive, annually reviewed compensation package
+Country vacation package that increases with your tenure
+
+Country specific benefits offering incl. private health care, fitness and meal allowances
+Annual personal development budget to increase your impact
+Hybrid working mode, plus up to 3 months of the year work from anywhere.
+All the best kit and tools to work effectively
+Annual in person all company event and celebration in Europe
+Working with an exceptional team, doing some of the best work of your career
+Use of AI in Our Recruitment Process:
+We believe in a human-led hiring process. All applications are reviewed manually by our Talent Acquisition team, and neither Talent Acquisition nor Hiring Managers use AI to screen, filter, rank, assess, or make decisions about candidates, including during interviews and assessments. During interviews, AI may be used only to support note-taking and transcription.
+
+All hiring decisions are made by people!
